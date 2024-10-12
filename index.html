@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fran - About Me</title>
-    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pruebas</title>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://kit.fontawesome.com/ec46b80c81.css" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/ec46b80c81.css"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+  </head>
 
-<body class=" bg-[#F5EFE6] ">
-    <header>
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
-    </header>
-    <!-- 
-        #1A4D2E
-        #4F6F52
-        #E8DFCA
-        #F5EFE6
-     -->
-    <div class="grid place-content-center content-center pt-4">
-        <div style="font-family: Lora, serif" class=" text-2xl font-medium italic text-center">
-            In Process
+  <body class="bg-[#ffffff] h-screen w-screen overflow-hidden">
+    <div class="grid grid-cols-2">
+      
+      <div class="h-[93vh] bg-[url(media/Flowers.jpg)] rounded-3xl m-4 mt-11 bg-no-repeat " >
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-[9vh] text-[#000000] p-2 lora-400">Bienvenida</h1>
+        <p class="text-[#000000] p-2">Ingrese sus usuario y contraseña para continuar</p>
+        <div class="w-[50vh]">
+          <div class="flex flex-col m-2 ">
+            <label for="user" class="text-[#000000]">Usuario</label>
+            <input
+              type="text"
+              class="border-0 bg-slate-100 
+               rounded-md p-3"
+            />
+          </div>
+          <div class="flex flex-col m-2">
+            <label for="password" class="text-[#000000]">Contraseña</label>
+            <input
+              type="password"
+              class="border-0 bg-slate-100 
+               rounded-md p-3"
+            />
+          </div>
+          <div class="flex flex-col m-2 mt-9">
+            <button
+              type="submit"
+              class="border-0 bg-black text-white 
+               rounded-md p-3"
+            >
+              Ingresar
+            </button>
+          </div>
         </div>
-        <img class=" w-40" src="media/goldenRetriever.png" alt="">
+      
     </div>
-    <footer>
-
-    </footer>
-</body>
-
+  </body>
 </html>
